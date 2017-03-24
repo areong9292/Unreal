@@ -29,14 +29,12 @@ void UOpenDoor::OpenDoor()
 	AActor* Owner = GetOwner();
 
 	// Create a rotator
-	FRotator NewRotation = FRotator(0.f, -60.f, 0.f);
+	FRotator NewRotation = FRotator(0.f, -120.f, 0.f);
 	// 피치, 요, 롤 회전정도를 설정
 
 	// Set the door rotation
 	Owner->SetActorRotation(NewRotation);
 }
-
-
 
 
 // Called every frame
